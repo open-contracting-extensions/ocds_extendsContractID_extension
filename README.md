@@ -109,5 +109,5 @@ The third contract was signed in 2012, and renews the property rental for anothe
 
 The image below shows an example of how the information provided by the ```extendsContractID``` property is used in Paraguay, to display two contracts resulting from an award (the blue boxes), with one of those contracts then extended (the blue circle).
 
-![Paguay Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)
+![Paraguay Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)
 
