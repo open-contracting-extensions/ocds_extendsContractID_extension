@@ -1,14 +1,14 @@
-extendsContractID
-=================
+# extendsContractID
 
-Under some procurement rules and processes, to extend the duration or value of a contract, or to make other substantial alterations, requires a new contract to be signed. 
+Under some procurement rules and processes, to extend the duration or value of a contract, or to make other substantial alterations, requires a new contract to be signed.
 
-This new contract will form part of the same overall contracting process as the old contract which it extends. 
+This new contract will form part of the same overall contracting process as the old contract which it extends.
 
-In these cases, the ```extendsContractID``` property can be used to identify that a given entry in the ```contracts``` array should be understood as related to a previous contract. 
+In these cases, the ```extendsContractID``` property can be used to identify that a given entry in the ```contracts``` array should be understood as related to a previous contract.
 
 ## Notes
-This extension should **only** be used in cases where there is a substantive **new contract** signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the contracts array. 
+
+This extension should **only** be used in cases where there is a substantive **new contract** signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the contracts array.
 
 ## Example
 
@@ -16,7 +16,7 @@ The extract below shows three contracts in the contracts array of an OCDS releas
 
 The first two contracts were signed in 2011: one for one year for property rental, and the other for two years for services related to property rental.
 
-The third contract was signed in 2012, and renews the property rental for another year. This is related back to the contract for the first year of rental with the ```extendsContractID``` property. 
+The third contract was signed in 2012, and renews the property rental for another year. This is related back to the contract for the first year of rental with the ```extendsContractID``` property.
 
 ```json
 {
