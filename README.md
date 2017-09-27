@@ -111,3 +111,6 @@ The image below shows an example of how the information provided by the ```exten
 
 ![Paraguay Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)
 
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
