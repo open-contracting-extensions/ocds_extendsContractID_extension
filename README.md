@@ -4,7 +4,7 @@ Under some procurement rules and processes, to extend the duration or value of a
 
 This new contract will form part of the same overall contracting process as the old contract which it extends.
 
-In these cases, the ```extendsContractID``` property can be used to identify that a given entry in the ```contracts``` array should be understood as related to a previous contract.
+In these cases, the `extendsContractID` property can be used to identify that a given entry in the `contracts` array should be understood as related to a previous contract.
 
 ## Notes
 
@@ -16,7 +16,7 @@ The extract below shows three contracts in the contracts array of an OCDS releas
 
 The first two contracts were signed in 2011: one for one year for property rental, and the other for two years for services related to property rental.
 
-The third contract was signed in 2012, and renews the property rental for another year. This is related back to the contract for the first year of rental with the ```extendsContractID``` property.
+The third contract was signed in 2012, and renews the property rental for another year. This is related back to the contract for the first year of rental with the `extendsContractID` property.
 
 ```json
 {
@@ -107,7 +107,7 @@ The third contract was signed in 2012, and renews the property rental for anothe
 }
 ```
 
-The image below shows an example of how the information provided by the ```extendsContractID``` property is used in Paraguay, to display two contracts resulting from an award (the blue boxes), with one of those contracts then extended (the blue circle).
+The image below shows an example of how the information provided by the `extendsContractID` property is used in Paraguay, to display two contracts resulting from an award (the blue boxes), with one of those contracts then extended (the blue circle).
 
 ![Paraguay Example](https://cloud.githubusercontent.com/assets/342624/9915392/aecb1e52-5cae-11e5-9824-a6eb616e568b.png)
 
