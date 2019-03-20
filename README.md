@@ -114,3 +114,9 @@ The image below shows an example of how the information provided by the `extends
 ## Issues
 
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
+
+## Changelog
+
+### 2018-01-29
+
+* Make `Contract.extendsContractID` nullable.
