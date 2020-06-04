@@ -8,7 +8,7 @@ In these cases, the `extendsContractID` property can be used to identify that a 
 
 ## Notes
 
-This extension should **only** be used in cases where there is a substantive **new contract** signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the contracts array.
+Use this extension **only** in cases where there is a substantive **new contract** signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the contracts array.
 
 ## Example
 
@@ -116,6 +116,10 @@ The image below shows an example of how the information provided by the `extends
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-06-04
+
+* Review normative and non-normative words.
 
 ### 2020-04-24
 
