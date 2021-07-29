@@ -6,9 +6,7 @@ This new contract will form part of the same overall contracting process as the 
 
 In these cases, the `extendsContractID` field can be used to identify that a given entry in the `contracts` array should be understood as related to a previous contract.
 
-## Notes
-
-Use this extension **only** in cases where there is a substantive **new contract** signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the contracts array.
+Use this extension **only if** there is a substantive new contract signed as the extension of a previous contract. In most cases, an update to the value or duration of a contract should be modelled as an amendment within a single entry in the `contracts` array.
 
 ## Example
 
